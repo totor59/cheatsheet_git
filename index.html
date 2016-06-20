@@ -7,28 +7,27 @@
 		<title>Cheatsheet Git</title>
 	</head>
 	<body>
-		<div class="header">
+		<header>
                         <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png">
 			<p id="title">CheatSheet Git<p>
-		</div>
+		</header>
 		<div class="cheatsheet">
 			<table border width="80%">
 				<caption>CONFIGURE TOOLING</caption>
-				<tr><th>Command</th><th>Description</th></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
 			<tr><td class="command">$ git config --global user.name "[name]"</td><td>Sets the name you want attached to your commit transactions</td></tr>
 			<tr><td class="command">$ git config --global user.email "[email address]"</td><td>Sets the email you want attached to your commit transactions</td></tr>
 			<tr><td class="command">$ git config --global color.ui auto</td><td>Enables helpful colorization of command line output</td></tr>
 		</table>
 		<table border width="80%">
 				<caption>CREATE REPOSITORIES</caption>
-				<tr><th>Command</th><th>Description</th></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
 			<tr><td class="command">$ git init [project-name]</td><td>Creates a new local repository with the specified name</td></tr>
 			<tr><td class="command">$ git clone [url]</td><td>Downloads a project and its entire version history</td></tr>
 		</table>
 		<table border width="80%">
 				<caption>MAKE CHANGES</caption>
-				<tr><th>Command</th><th>Description</th></tr>
-			<tr><td class="command">$ git status</td><td>Lists all new or modified files to be committed</td></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
 			<tr><td class="command">$ git diff</td><td>Shows file differences not yet staged</td></tr>
 			<tr><td class="command">$ git add [file]</td><td>Snapshots the file in preparation for versioning</td></tr>
 			<tr><td class="command">$ git diff --staged</td><td>Shows file differences between staging and the last file version</td></tr>
@@ -37,8 +36,8 @@
 		</table>
 		<table border width="80%">
 				<caption>GROUP CHANGES</caption>
-				<tr><th>Command</th><th>Description</th></tr>
-			<tr><td class="command">$ git branch</td><td>Lists all local branches in the current repository</td></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
+		<tr><td class="command">$ git branch</td><td>Lists all local branches in the current repository</td></tr>
 			<tr><td class="command">$ git branch [branch-name]</td><td>Creates a new branch</td></tr>
 			<tr><td class="command">$ git checkout [branch-name]</td><td>Switches to the specified branch and updates the working directory</td></tr>
 			<tr><td class="command">$ git merge [branch]</td><td>Combines the specified branch’s history into the current branch</td></tr>
@@ -46,19 +45,19 @@
 		</table>
 		<table border width="80%">
 				<caption>REFACTOR FILENAMES</caption>
-				<tr><th>Command</th><th>Description</th></tr>
-			<tr><td class="command">$ git rm [file]</td><td>Deletes the file from the working directory and stages the deletion</td></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
+      <tr><td class="command">$ git rm [file]</td><td>Deletes the file from the working directory and stages the deletion</td></tr>
 			<tr><td class="command">$ git rm --cached [file]</td><td>Removes the file from version control but preserves the file locally</td></tr>
 			<tr><td class="command">$ git mv [file-original] [file-renamed]</td><td>Changes the file name and prepares it for commit</td></tr>
 		</table>
 		<table border width="80%">
 				<caption>SUPPRESS TRACKING</caption>
-				<tr><th>Command</th><th>Description</th></tr>
-			<tr><td class="command">$ git ls-files --other --ignored --exclude-standard</td><td>Lists all ignored files in this project</td></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
+<tr><td class="command">$ git ls-files --other --ignored --exclude-standard</td><td>Lists all ignored files in this project</td></tr>
 		</table>
 		<table border width="80%">
 				<caption>REVIEW HISTORY</caption>
-				<tr><th>Command</th><th>Description</th></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
 			<tr><td class="command">$ git log</td><td>Lists version history for the current branch</td></tr>
 			<tr><td class="command">$ git log --follow [file]</td><td>Lists version history for a file, including renames</td></tr>
 			<tr><td class="command">$ git diff [first-branch]...[second-branch]</td><td>Shows content differences between two branches</td></tr>
@@ -66,13 +65,13 @@
 		</table>
 		<table border width="80%">
 				<caption>REDO COMMITS</caption>
-				<tr><th>Command</th><th>Description</th></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
 			<tr><td class="command">$ git reset [commit]</td><td>Undoes all commits after [commit], preserving changes locally</td></tr>
 			<tr><td class="command">$ git reset --hard [commit]</td><td>Discards all history and changes back to the specified commit</td></tr>
 		</table>
 		<table border width="80%">
 				<caption>SAVE FRAGMENTS</caption>
-				<tr><th>Command</th><th>Description</th></tr>
+				<tr><th width="40%">Command</th><th width="60%">Description</th></tr>
 			<tr><td class="command">$ git stash</td><td>Temporarily stores all modified tracked files</td></tr>
 			<tr><td class="command">$ git stash pop</td><td>Restores the most recently stashed files</td></tr>
 			<tr><td class="command">$ git stash list</td><td>Lists all stashed changesets</td></tr>
@@ -80,7 +79,7 @@
 		</table>
 		<table border width="80%">
 				<caption>SYNCHRONISE CHANGES</caption>
-				<tr><th>Command</th><th>Description</th></tr>
+      <tr><th width="40%">Command</th><th width="60%">Description</th></tr>
 			<tr><td class="command">$ git fetch [bookmark]</td><td>Downloads all history from the repository bookmark</td></tr>
 			<tr><td class="command">$ git merge [bookmark]/[branch]</td><td>Combines bookmark’s branch into current local branch</td></tr>
 			<tr><td class="command">$ git push [alias] [branch]</td><td>Uploads all local branch commits to GitHub</td></tr>
