@@ -44,15 +44,10 @@ caption {
 a {
 	text-decoration: none;
 }
-a:hover
-
-{
-
-	   text-decoration: underline;
-
-	      color: green;
-
-      }
+a:hover {
+   text-decoration: underline;
+ }
+       
 footer {
 	text-align: right;
 }
