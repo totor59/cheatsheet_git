@@ -8,22 +8,36 @@ img {
 }
  #title {
 	 color: #020202;
-	 font-family: Lobster;
-	 font-size: 40px;
+	 font-family:'Ubuntu Condensed';
+	 font-size: 60px;
 	 margin-left: 15px;
 					}
 .cheatsheet {
 	margin-top: 150px;
 	  width: 100%;
 	  text-align: center;
+	  display : block;
 	}
-td,th,caption {
+.command {
+	font-family: 'Ubuntu Mono';
+}
+td,th {
 	border: 1px solid black;
-  border-collapse: collapse;
+  border-collapse: separate;
+ border-spacing: 0px;
+
 }
 table {
 	margin: auto;
 		text-align: left;
 		margin-top: 20px;
+
+}
+caption {
+	margin-top: 16px;
+	margin-bottom:12px;
+	font-family:'Ubuntu Condensed';
+	font-weight: bold;
+	font-size: 20px;
 
 }
