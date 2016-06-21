@@ -3,7 +3,7 @@ header {
 	 text-align: left;
 }
 img {
-	 height: 100px;
+	 height: 150px;
 	 float: right;
 }
  #title {
@@ -41,3 +41,19 @@ caption {
 	font-size: 20px;
 
 }
+a {
+	text-decoration: none;
+}
+a:hover
+
+{
+
+	   text-decoration: underline;
+
+	      color: green;
+
+      }
+footer {
+	text-align: right;
+}
+
