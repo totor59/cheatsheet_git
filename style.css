@@ -85,9 +85,9 @@ display: none;
 font-size: 30px;
 }
 }
-/* @media screen and (max-width: 951px) {
-	nav {
-		margin-right:0px;
+@media screen and (max-width: 768px) {
+	#upper {
+		display: none;
 	}
 
 
