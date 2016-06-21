@@ -39,7 +39,6 @@ caption {
 	font-family:'Ubuntu Condensed';
 	font-weight: bold;
 	font-size: 20px;
-
 }
 a {
 	text-decoration: none;
@@ -51,4 +50,16 @@ a:hover {
 footer {
 	text-align: right;
 }
+@media screen and (max-width: 640px) {
+	    img {
+		            display: none;
+			            }
+#title {
+font-size: 30px;
+}
+/*.cheatsheet {
+	margin-top: 6.522em;
+}*/
+
+
 
